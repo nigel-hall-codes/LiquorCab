@@ -17,10 +17,10 @@
 {#        nav bar  #}
 {#        nav bar ends#}
 {#        add to Inventory sect#}
-        <div class="row mx-auto col-sm-8 alert alert-success ">
-            <h1 class="display-4 mx-auto" id="conf">
+        <div class="row mx-auto col-sm-8 pt-5 ">
+            <button type="button" class="btn btn-success btn-lg mx-auto" id="conf"  onclick="document.getElementById('fileinput').click()">
                 Add an Ingredient
-            </h1>
+            </button>
             <form enctype="multipart/form-data" id="invform" method="POST" action="">
             <input class="pl-5 mx-auto" id="fileinput" type="file" accept="image/*;capture=camera">
             </form>
@@ -36,7 +36,7 @@
             </div>
 
         </div>
-        <div class="row p-t-5" id="inventory">
+        <div class="row pt-5" id="inventory">
 
         </div>
 {#        current Inventory sec ends#}

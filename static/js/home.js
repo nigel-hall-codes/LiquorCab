@@ -4,6 +4,8 @@
 // var selectedFile = $('#fileinput').get(0).files[0];
 // console.log()
 //  Cookie Bullshit
+
+
 function getCookie(name) {
     var cookieValue = null;
     if (document.cookie && document.cookie !== '') {

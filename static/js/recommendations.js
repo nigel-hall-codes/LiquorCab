@@ -12,7 +12,7 @@ $( document ).ready(function() {
             console.log(cocktails);
             cocktails.forEach(function (co) {
                 idnum = co.pk;
-                html = '<div class="card" style="width:20rem;"><img id="testcard'+idnum.toString()+'" class="card-img-top"  alt="Card image cap"><div class="card-block"> <h4 class="card-title display-4" id="title'+idnum.toString()+'">Analyzing...</h4> <p class="card-text" id="content'+idnum+'">content.</p> <a href="#" class="btn btn-primary">Remove</a> </div> </div>'
+                html = '<div class="card" style="width:20rem;"><img id="testcard'+idnum.toString()+'" class="card-img-top"  alt="Card image cap"><div class="card-block"> <h4 class="card-title display-4" id="title'+idnum.toString()+'">Analyzing...</h4>  </div> </div>'
                 fields = co.fields;
                 console.log(fields.image)
 
